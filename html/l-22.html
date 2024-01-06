@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h1 align="center">Sign Up Form</h1><hr> <br>
+
+    <label for="user">Name:</label>
+    <input type="text" name="user" id="user" placeholder="username"> <br>
+
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" required placeholder="email"><br>
+
+    <label for="pass">Password:</label>
+    <input type="password" name="pass" id="pass"><br>
+
+    <label for="phn">Phone:</label>
+    <select name="code" id="">
+        <option value="+880">+880</option>
+        <option value="+990">+99</option>
+        <option value="+110">+11</option>
+    </select>
+    <input type="number" name="phn" id="phn" placeholder="123456789"><br>
+
+    <label for="country">country:</label>
+    <input list="con">
+    <datalist id="con">
+       <option value="bangladesh">bangladesh</option>
+       <option value="india">india</option>
+       <option value="canada" selected>canada</option>
+    </datalist><br>
+
+    Gender:
+    <input type="radio" name="gnd1" id="gnd1">
+    <label for="gnd1">Male</label>
+    <input type="radio" name="gnd1" id="gnd2">
+    <label for="gnd2">Female</label><br>
+
+    <label for="DOB">Date of Birth:</label>
+    <input type="date" name="date" id="DOB" required>
+    <br>
+    
+    <label for="time">Time</label>
+    <input type="time" name="time" id="time"><br>
+
+    <label for="clr">Color</label>
+    <input type="color" name="clr" id="clr"><br>
+
+    <label for="file">Your photo:</label>
+    <input type="file" name="file" id="file"><br>
+
+    <input type="checkbox" name="chk" id="chk">
+    <label for="chk">I have Bike</label>
+
+    <input type="checkbox" name="chk" id="chk">
+    <label for="chk"> i have bycicycle</label><br>
+
+    <textarea name="" id="" cols="30" rows="10"> your comment</textarea><br>
+
+ 
+    <input type="submit" name="sent" id="sent" value="sent">
+    <input type="submit" name="Reset" id="Reset" value="Reset">
+
+</body>
+</html>
